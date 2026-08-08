@@ -1,0 +1,10 @@
+spring.application.name: spring-ai-odyssey
+spring.profiles.active: ${APP_ENV:local}
+
+spring.ai.anthropic.api-key: ${ANTHROPIC_API_KEY:}
+spring:
+  ai:
+    anthropic:
+      chat:
+        model: ${ANTHROPIC_CHAT_MODEL}				
+        max-tokens: ${ANTHROPIC_CHAT_MAX_TOKENS}

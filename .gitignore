@@ -1,0 +1,18 @@
+# Build output
+target/
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# IntelliJ
+.idea/
+*.iml
+
+# Secrets - never commit
+application-local.yml
+*-local.yml
+.env
+*.pem
