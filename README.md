@@ -1,7 +1,10 @@
 # Spring AI Odyssey
 
-**A hands-on lab for Spring AI.** One feature per lab, each small enough to
-read in a sitting and runnable on its own.
+**A hands-on lab for Spring AI.** 
+
+**Working examples of every Spring AI capability.** ChatClient, advisors, chat
+memory, structured output, embeddings, RAG, tool calling, MCP and evaluation —
+each isolated in its own package, each runnable on its own.
 
 ## About this project
 
@@ -16,9 +19,9 @@ minutes.
 I build production systems with Spring and Java. Evaluating a framework
 properly takes more than reading the reference — it means running each
 capability against something real and seeing where it holds up and where it
-does not. This repository is that work, kept in a form other engineers can use.
+does not.
 
-Each lab isolates one feature, keeps the code to the minimum that demonstrates
+Each smallest working examples isolates one feature, keeps the code to the minimum that demonstrates
 it, and makes the reasoning explicit rather than assumed.
 
 Spring AI is among the most consequential developments in the Java ecosystem
